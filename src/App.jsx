@@ -1,9 +1,12 @@
 import './App.css'
 import QuoteBox from './components/QuoteBox';
+import { useSelector } from "react-redux";
 
 function App() {
+    const color = useSelector((state) => state.color);
+
     let containerStyle = {
-        backgroundColor: 'red'
+        backgroundColor: color
     }
     return (
         <div id="main-container" style={containerStyle}>
