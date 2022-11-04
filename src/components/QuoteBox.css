@@ -13,6 +13,9 @@
     font-size: 15px;
     border-radius: 4px;
 }
+#quote-button:hover {
+    filter: brightness(120%);
+}
 #quote-text {
     text-align: center;
     line-height: 40px;

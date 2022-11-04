@@ -58,7 +58,7 @@ function QuoteBox() {
         color: 'white',
         backgroundColor: color,
         border: 'none',
-        transition: 'all 1s ease-out'
+        transition: 'background-color 1s ease-out'
     };
 
     return(
