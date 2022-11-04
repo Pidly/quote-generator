@@ -6,7 +6,8 @@ function App() {
     const color = useSelector((state) => state.color);
 
     let containerStyle = {
-        backgroundColor: color
+        backgroundColor: color,
+        transition: 'all 1s ease-out'
     }
     return (
         <div id="main-container" style={containerStyle}>
