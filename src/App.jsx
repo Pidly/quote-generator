@@ -7,7 +7,9 @@ function App() {
     }
     return (
         <div id="main-container" style={containerStyle}>
-            <QuoteBox/>
+            <div id='quote-box-container'>
+                <QuoteBox/>
+            </div>
         </div>
     )
 }

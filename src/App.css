@@ -4,3 +4,9 @@
     color: grey;
     position: absolute;
 }
+#quote-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
