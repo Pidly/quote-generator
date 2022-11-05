@@ -4,3 +4,9 @@ export const setColor = (color) => {
         color
     }
 }
+export const setQuote = (quote) => {
+    return {
+        type: "QUOTE",
+        quote
+    }
+}

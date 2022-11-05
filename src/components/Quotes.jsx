@@ -78,6 +78,10 @@ export const quotes = [
     {
         quote: 'How wonderful it is that nobody need wait a single moment before starting to improve the world.',
         author: '- Anne Frank'
+    },
+    {
+        quote: 'If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.',
+        author: '- Vincent Van Gogh'
     }
 ]
 

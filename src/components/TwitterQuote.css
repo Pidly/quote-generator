@@ -1,0 +1,7 @@
+#twitter-image {
+    width: auto;
+    height: 45px;
+}
+#twitter-image:hover {
+    filter: brightness(120%);
+}
